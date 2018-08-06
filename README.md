@@ -4,7 +4,7 @@
  * input field;
  * button;
  * list of city, states.
- #### And has this functionality:
+ #### And has functionality:
  * User enter a zipcode into the field and press the button to save the city and state to the list. 
  * Input cleared on submit.
  * Same zip code didn't store 2 or more times.
