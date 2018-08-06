@@ -12,9 +12,6 @@
  * If the user enters a new zip code while an item is selected and hits the button, the record updated (if valid input).
  * User can to deselect selected item.
 
-#### This project allows to enter zip code in input field and get city and state that corresponds to this input on click the button.
-#### Project is written using pure JavaScript(ES6+). As assemble system webpack is used.
-
 Project used [ZipCodeAPI](https://www.zipcodeapi.com/).
 In the first step we must [Register](https://www.zipcodeapi.com/Register) application to get application key. 
 Then we must set up javascript client key by using [Client Key Setup](https://www.zipcodeapi.com/ClientKeySetup). We must write domain name and this client key will only be accepted when used on this domain.
