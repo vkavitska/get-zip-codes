@@ -1,10 +1,10 @@
 # get-zip-codes
 
-This application has an:
+*This application has an:*
  * input field;
  * button;
  * list of city, states.
- And has this functionality:
+ *And has this functionality:*
  * User enter a zipcode into the field and press the button to save the city and state to the list. 
  * Input cleared on submit.
  * Same zip code didn't store 2 or more times.
@@ -14,12 +14,12 @@ This application has an:
 
 ### This project allows to enter zip code in input field and get city and state that corresponds to this input on click the button.
 ### Project is written using pure JavaScript(ES6+). As assemble system webpack is used.
-
+---
 Project used [ZipCodeAPI](https://www.zipcodeapi.com/).
 In the first step we must [Register](https://www.zipcodeapi.com/Register) application to get application key. 
 Then we must set up javascript client key by using [Client Key Setup](https://www.zipcodeapi.com/ClientKeySetup). We must write domain name and this client key will only be accepted when used on this domain.
 With using client key we can fetch information that provides this API.
-
+---
 The code is written with subsequent re-use of components and further support. Each file / module is responsible for its functionality. If there is a need to use another API, the changes will be minimal, mainly in zipController.js.
 ##We have components:
 *userInput.js that validates entered value.
